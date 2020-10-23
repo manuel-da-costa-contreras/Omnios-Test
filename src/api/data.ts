@@ -5,9 +5,3 @@ export async function getBeers(): Promise<any> {
 
   return response;
 }
-
-export async function getDeveloper(): Promise<any> {
-  const response = await get(`https://randomuser.me/api/`);
-
-  return response;
-}
