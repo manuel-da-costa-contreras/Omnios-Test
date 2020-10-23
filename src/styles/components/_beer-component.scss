@@ -1,0 +1,31 @@
+.wrapper_header {
+  background: darken($off-white, 10%);
+  margin-bottom: 15px;
+}
+
+.item_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin: 0 auto;
+  max-width: 1140px;
+  background: darken($pure-white, 10%);
+}
+
+.item_container {
+  display: flex;
+  margin: auto;
+}
+
+.item {
+  word-break: break-word;
+  width: 325px;
+  margin-right: 12px;
+  & > p {
+    margin-bottom: 8px;
+  }
+}
+
+.beer_img {
+  max-width: 80px;
+}
